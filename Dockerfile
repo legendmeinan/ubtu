@@ -1,6 +1,5 @@
-FROM gezp/ubuntu-desktop:20.04-cu11.0
+FROM gotoeasy/ubuntu-desktop
+EXPOSE 5900
 
-EXPOSE 4000
 
 
-ENTRYPOINT ["/nxserver.sh"]
